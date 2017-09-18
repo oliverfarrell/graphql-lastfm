@@ -1,0 +1,27 @@
+{
+  "name": "graphql-lastfm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverfarrell/graphql-lastfm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverfarrell/graphql-lastfm/issues"
+  },
+  "homepage": "https://github.com/oliverfarrell/graphql-lastfm#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.3",
+    "node-fetch": "^1.7.3"
+  }
+}
