@@ -4,11 +4,11 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 
 const app = express();
-const schema = require('./schema')
+const schema = require('./schema');
 
 app.use('/graphql', graphqlHTTP({
   schema,
-  graphiql: true,
+  graphiql: true
 }));
 
 app.listen(4000, () => console.log('Browse to localhost:4000/graphql'));
